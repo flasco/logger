@@ -1,7 +1,7 @@
 {
   "name": "@flasco/logger",
-  "version": "0.0.1",
-  "main": "index.js",
+  "version": "0.0.2",
+  "main": "src/index.js",
   "license": "MIT",
   "typings": "typings/index.d.ts",
   "scripts": {
