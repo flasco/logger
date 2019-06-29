@@ -23,9 +23,9 @@
   },
   "lint-staged": {
     "linters": {
-      "*.{js,ts}": ["eslint --ext .ts", "git add"]
-    }
-
+      "*.{js,ts}": ["eslint", "git add"]
+    },
+    "ignore": ["**/dist/**/*", ".eslint*.*"]
   },
   "jest": {
     "testEnvironment": "node",
