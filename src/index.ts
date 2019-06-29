@@ -5,7 +5,6 @@ const getTime = () => formatDate(new Date(), 'HH:mm:ss');
 
 class Logger {
   private _needTime: boolean;
-  time: Logger | undefined;
   constructor(needTime = false) {
     this._needTime = needTime;
   }
@@ -48,7 +47,7 @@ class Logger {
   }
 }
 
-const logger = new Logger();
+const logger: any = new Logger();
 logger.time = new Logger(true);
 
 export = logger;
