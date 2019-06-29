@@ -1,4 +1,4 @@
-const Logger = require('../src');
+const Logger = require('../dist');
 
 describe('测试Logger', () => {
   test('success', () => {
