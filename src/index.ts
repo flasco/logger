@@ -47,7 +47,11 @@ class Logger {
   }
 }
 
-const logger: any = new Logger();
+interface ILTime {
+  time: Logger
+}
+
+const logger= <Logger & ILTime> new Logger();
 logger.time = new Logger(true);
 
 export = logger;
